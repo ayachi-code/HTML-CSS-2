@@ -1,0 +1,63 @@
+
+
+body
+{
+  background-color: gray;
+}
+
+
+header
+{
+  background-color: aqua;
+  width:1280px;
+  height:100px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #B9C0AD;
+    padding-left: 30px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+}
+
+.welkom
+{
+  width: 500px;
+  height: 250px;
+  background-color: lightgray;
+  color: red;
+}
+
+
+.mijn_ervaring
+{
+  margin-top: 800px;
+  width: 600px;
+  height: 400px;
+
+
+}
+
+
+
+.mijn_ervaring_met_rm
+{
+    margin-top: 600px;
+    width: 300px;
