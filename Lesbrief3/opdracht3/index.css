@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    background-color: lightgray;
+}
+
+
+.boven
+{
+    
+    background-color: orange;
+    text-align: center;
+    height: 50px;
+}
+
+.nvg
+{
+    float: left;
+    background-color: orange;
+    height: 1000px;
+    
+    
+}
+
+
+#credits {
+  margin-top: 600px;
+  position:absolute;
+  bottom:10px;
+  font-family: monospace;
+  font-size:12px;
+  color:#000;
+  z-index:999;
+  background-color:#fff;
+  opacity:.75;
+  margin-left: 500px;
+}
