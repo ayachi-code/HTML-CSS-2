@@ -14,16 +14,15 @@
   <body>
 
     <header class="jumbotron text-center" id="a">
-      <h3>Waarom rm -rf gevaarlijk is</h3>
+      <h3 id="begin">Waarom rm -rf gevaarlijk is</h3>
 
     </header>
 
     <nav class="navigator">
       <ul>
-        <li><a href="/index.html" onclick="scrollToPage('#a')">Home</a></li>
-        <li><a href="/index.html">Mijn ervaring</a></li>
-        <li><a href="/index.html">waarom is het zo gevaarijk</a></li>
-        <li><a href="/index.html">wat betekenen -rf</a></li>
+        <li><a href="#begin">Home</a></li>
+        <li><a href="#maas">Mijn ervaring</a></li>
+        <li><a href="#jas">waarom is het zo gevaarijk</a></li>
       </ul>
 
 
@@ -44,7 +43,7 @@
 
 
 
-<div class="mijn_ervaring_met_rm">
+<div class="mijn_ervaring_met_rm" id="memrm">
    <div class="col-sm-9">
              <div class="well">
                <h4>Mijn ervaring met rm -rf</h4>
@@ -60,7 +59,7 @@
     <section>
 
       <article>
-        <p>Hallo ik wil jullie de nara gebeurtenis met rm -rf delen.Het was mooie dag ik was lekker bezig met mijn persoonlijke website.Ik wouw stoppen met programmeren en de volgende dag verder werken want het was behoorlijk laat.Maar toen had ik een idee om ZSH te installen op mijn PI, dus ik installerde het en dacht dat het verkeert ge-installeert was dus ik wouw de map verwijderen en  het opnieuw installeren dus ik type de volgende command: <b>rm -rf /path/to/the/zshdir/</b> en vervolgens drukte ik op enter en ja ik had hele belangerijke dingev verwijderd.Ik was toen in paniek en wist niet wat ik moest doen.Maar gelukkig had ik mijn code op <b>git</b> Ik was heel erg opgelucht.Maar ja mijn pi was niet als de oude.Dus ik instaleerde de software opnieuw.En ja alles was weg ik moest alles weer op nieuw installeeren heb mijn git respority ge-cloned naar de /var/www/ en mijn site was er weer en alles was net als gisteren.Ik heb wel van me fout geleerd: wees voorzichtig met de rm -rf command </p>
+        <p id="maas">Hallo ik wil jullie de nara gebeurtenis met rm -rf delen.Het was mooie dag ik was lekker bezig met mijn persoonlijke website.Ik wouw stoppen met programmeren en de volgende dag verder werken want het was behoorlijk laat.Maar toen had ik een idee om ZSH te installen op mijn PI, dus ik installerde het en dacht dat het verkeert ge-installeert was dus ik wouw de map verwijderen en  het opnieuw installeren dus ik type de volgende command: <b>rm -rf /path/to/the/zshdir/</b> en vervolgens drukte ik op enter en ja ik had hele belangerijke dingev verwijderd.Ik was toen in paniek en wist niet wat ik moest doen.Maar gelukkig had ik mijn code op <b>git</b> Ik was heel erg opgelucht.Maar ja mijn pi was niet als de oude.Dus ik instaleerde de software opnieuw.En ja alles was weg ik moest alles weer op nieuw installeeren heb mijn git respority ge-cloned naar de /var/www/ en mijn site was er weer en alles was net als gisteren.Ik heb wel van me fout geleerd: wees voorzichtig met de rm -rf command </p>
       </article>
 
     </section>
@@ -69,6 +68,44 @@
   </div>
 </div>
 
+
+
+  <div class="waarom_is_het_gevaarlijk_">
+      <div class="col-sm-9">
+          <div class="well">
+    <section>
+
+      <article>
+        <h4>Waarom is het gevaarlijk</h4>
+
+    </section>
+
+      </div>
+  </div>
+</div>
+
+  <div class="waarom_is_het_gevaarlijk">
+      <div class="col-sm-9">
+          <div class="well">
+    <section>
+
+      <article>
+       <p id="jas">Waarom is nou de rm -rf commando gevaarlijk.Laten we het eerst gaan hakken de rm staat voor verwijder.Met de -r command verwijder je ook de mappen die erin zitten dus bijvoorbeeld rm -r /home/path/ dan verwijderd hij die mappen.En als je -rf doet dan hoef je geen wachtwoord in te typen om het te bevestigen -</p>
+
+    </section>
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="index.js"></script>
 
 
 

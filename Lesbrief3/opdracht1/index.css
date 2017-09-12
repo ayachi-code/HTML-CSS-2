@@ -19,6 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: fixed;
 
 }
 
@@ -59,5 +60,19 @@ li a {
 
 .mijn_ervaring_met_rm
 {
-    margin-top: 600px;
-    width: 300px;
+    margin-top: 650px;
+    width: 400px;
+}
+
+
+.waarom_is_het_gevaarlijk_
+{
+  margin-top: 1100px;
+  width: 400px;
+}
+
+.waarom_is_het_gevaarlijk
+{
+
+  width: 400px;
+}
