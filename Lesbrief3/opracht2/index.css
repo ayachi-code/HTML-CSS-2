@@ -1,0 +1,55 @@
+.zwart
+{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+.rood
+{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    z-index: 2;
+    
+    
+}
+
+
+
+.geel
+{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.blauw
+{
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 257px;
+  top: 259px;
+
+}
+
+
+.groen
+{
+  background-color: green;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  z-index: 300;
+  
+
+}
